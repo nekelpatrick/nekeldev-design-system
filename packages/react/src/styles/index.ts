@@ -20,9 +20,7 @@ export const {
   config,
 } = createStitches({
   themeMap: {
-    // Utilizing spread operator with DefaultThemeMap allows to use the custom theme values without replacing all the default values
     ...defaultThemeMap,
-
     height: 'space',
     width: 'space',
   },

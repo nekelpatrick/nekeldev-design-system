@@ -13,6 +13,6 @@ export const colors = {
 
   brand300: '#623CEA',
   brand500: '#4727BA',
-  ignite700: '#3111BA',
-  ignite900: '#1227BA',
+  brand700: '#3111BA',
+  brand900: '#1227BA',
 }

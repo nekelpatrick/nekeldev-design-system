@@ -1,0 +1,3 @@
+{
+  "extends": "@nekeldev/eslint-config"
+}
