@@ -1,4 +1,4 @@
-import { Box, IBoxProps } from '@nekeldev/react'
+import { Box, IBoxProps, Text } from '@nekeldev/react'
 
 import { StoryObj, Meta } from '@storybook/react'
 
@@ -7,11 +7,7 @@ export default {
   component: Box,
 
   args: {
-    children: (
-      <>
-        <span>Box</span>
-      </>
-    ),
+    children: <Text>Box</Text>,
   },
 } as Meta<IBoxProps>
 
