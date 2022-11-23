@@ -1,19 +1,28 @@
-import { Text, ITextProps } from '@nekeldev/react'
+import { Heading, IHeadingProps } from '@nekeldev/react'
 
 import { StoryObj, Meta } from '@storybook/react'
 
 export default {
   title: 'Typography/Heading',
-  component: Text,
+  component: Heading,
 
   args: {
     children: 'Default Title',
+    size: 'md',
   },
-} as Meta<ITextProps>
+  argTypes: {
+    size: {
+      options: ['sm', 'md', 'lg', '2xl', '4xl', '5xl', '6xl'],
+      control: {
+        type: 'inline-radio',
+      },
+    },
+  },
+} as Meta<IHeadingProps>
 
-export const Primary: StoryObj<ITextProps> = {}
+export const Primary: StoryObj<IHeadingProps> = {}
 
-export const CustomTag: StoryObj<ITextProps> = {
+export const CustomTag: StoryObj<IHeadingProps> = {
   args: {
     children: 'H1 Title',
     as: 'h1',
