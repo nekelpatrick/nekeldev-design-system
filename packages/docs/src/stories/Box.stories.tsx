@@ -9,6 +9,13 @@ export default {
   args: {
     children: <Text>Box</Text>,
   },
+  argTypes: {
+    children: {
+      control: {
+        type: null,
+      },
+    },
+  },
 } as Meta<IBoxProps>
 
 export const Primary: StoryObj<IBoxProps> = {}

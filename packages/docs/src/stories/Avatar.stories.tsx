@@ -10,6 +10,13 @@ export default {
     src: 'https://github.com/nekelpatrick.png',
     alt: 'Patrick Nekel',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<IAvatarProps>
 
 export const Primary: StoryObj<IAvatarProps> = {}
