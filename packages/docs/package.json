@@ -26,6 +26,7 @@
   },
   "dependencies": {
     "@nekeldev/eslint-config": "*",
+    "@nekeldev/ts-config": "*",
     "@nekeldev/react": "*",
     "@nekeldev/tokens": "*",
     "polished": "^4.2.2",
