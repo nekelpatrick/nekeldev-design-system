@@ -4,7 +4,8 @@
     "packages/*"
   ],
   "scripts": {
-    "dev": "turbo run dev --parallel"
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^2.2.0",
