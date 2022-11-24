@@ -1,0 +1,2 @@
+import{A as t}from"./index.009ba79b.js";import"./index.619ea14d.js";import"./iframe.75dedf38.js";import"./index.647e4d15.js";import"./jsx-runtime.2121ea85.js";const c={title:"Data display/Avatar",component:t,args:{src:"https://github.com/nekelpatrick.png",alt:"Patrick Nekel"},argTypes:{src:{control:{type:"text"}}}},e={},p={args:{src:void 0}},l=["Primary","WithFallback"];export{e as Primary,p as WithFallback,l as __namedExportsOrder,c as default};
+//# sourceMappingURL=Avatar.stories.e2054d84.js.map
